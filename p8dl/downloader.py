@@ -1,4 +1,4 @@
-import urllib.request
+import urllib
 
 import appdirs
 import platform
@@ -35,4 +35,4 @@ def cart_path(cart_id):
 
 def cartretrieve(cart_id):
     url, path = cart_url(cart_id), cart_path(cart_id)
-    return urllib.request.urlretrieve(url, path)
+    return urllib.urlretrieve(url, path)

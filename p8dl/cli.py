@@ -1,6 +1,6 @@
 import sys
 
-from .downloader import cartretrieve
+from downloader import cartretrieve
 
 
 def main():
